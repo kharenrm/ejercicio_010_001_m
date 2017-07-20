@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exámen semana 2</title>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="utf-8">
+</head>
+<body>
+<header>
+	<h1>Tienda Patito OnLine</h1>
+</header>
+<div class="principal">
+	<section class="form">
+	<form class="add_producto" name="add_producto">
+	<legend>Nuevo producto</legend>
+		<input id="nombre" type="text" name="" placeholder="Nombre">
+		<input id="descripcion" type="text" name="" placeholder="Descripción">
+		<input id="precio" type="number" name="" placeholder="Precio">
+		<input id="url_img" type="text" name="" placeholder="Url imagen" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjoyZbqDF6GYFmS5d7N53wqLbVx2oaI5MhapJPYWf_WfUMBjwD">
+		<button class="btn_pr" type="button" onclick="tiendaPatito.addProducto()">Añadir</button>
+	</form>
+</section>
+<section id="productos" class="productos">
+	<table id="contenedor">
+		<tr>
+		    <th>Imagen</th>
+		    <th>Nombre</th> 
+		    <th>Precio</th>
+		    <th>Descripcion</th>
+		    <th>Acciones</th>
+	  	</tr>
+	</table>
+</section>
+</div>
+</body>
+</html>
